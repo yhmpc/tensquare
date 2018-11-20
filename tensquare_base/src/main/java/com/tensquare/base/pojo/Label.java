@@ -13,10 +13,10 @@ public class Label {
     @Id
     private String id;
     private String labelname;
-    private String state;
+    private String state; // 状态: 0/1
     private Long count; //使用数量
     private Long fans; //关注数
-    private String recommend;
+    private String recommend; // 推荐: 0/1
 
     public String getId() {
         return id;

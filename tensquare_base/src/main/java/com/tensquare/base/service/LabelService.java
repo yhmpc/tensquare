@@ -28,7 +28,7 @@ public class LabelService {
     }
 
     public void add(Label label) {
-        label.setId(idWorker.nextId() + "");
+        label.setId(new StringBuilder().append(idWorker.nextId()).toString());
         labelDao.save(label);
     }
 
