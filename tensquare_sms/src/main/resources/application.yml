@@ -5,3 +5,9 @@ spring:
     name: tensquare-sms
   rabbitmq:
     host: 47.107.175.146
+aliyun:
+  sms:
+    accessKeyId: 04avhmwfTCBOw4oN
+    accessKeySecret: g2vjk9LUnUe05ku4aFe9cwyLnOO1uv
+    templateCode: SMS_113160063
+    signName: 小明的自留地
